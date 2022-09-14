@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 8082
-ADD  guymass/jenkins-docker-sample.jar jenkins-docker-integration.jar
+ADD  target/jenkins-docker-sample.jar jenkins-docker-sample.jar
 ENTRYPOINT [ "java", "-jar", "/jenkins-docker-sample.jar" ]
