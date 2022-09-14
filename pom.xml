@@ -10,7 +10,7 @@
 
   <name>first-app</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>http://194.233.174.32/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -71,6 +71,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <finalName>jenkins-docker-sample</finalName>
+    
   </build>
 </project>
